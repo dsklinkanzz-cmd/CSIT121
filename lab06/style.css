@@ -1,0 +1,66 @@
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+nav {
+    display: flex;
+    background-color: #19191a;
+    color: #dbc8c8;
+    justify-content: center;
+    padding: 10px;
+    gap: 15px;
+}
+
+nav a {
+    color: #dbc8c8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: line-through;
+    text-decoration-color: #98b0ff;
+}
+
+body {
+    font-family: Montserrat, arial;
+    margin: 50px;
+    padding: 10px;
+    background-color: hsl(0, 1%, 63%);
+    box-sizing: border-box;
+    color: #202020; 
+}
+
+#Signature {
+    font-weight: bold;
+    text-align: center;
+    color: rgb(119, 7, 7);
+    font-size: 12px;
+}
+
+h1, h2, h3 {
+    color:#22305e;
+}
+
+P {
+    font-size: 16px;
+}
+
+a{
+    color: #22305e;
+    text-decoration: underline;
+}
+
+.blog-post {
+    background-color: #dddada;
+    padding: 20px;
+    border: 1px solid #8c97bb;
+}
+
+@media (max-width: 600px) {
+    main {
+        flex-direction: column;
+    }
+}

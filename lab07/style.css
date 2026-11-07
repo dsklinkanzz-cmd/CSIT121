@@ -1,0 +1,56 @@
+    body {
+    font-family: Montserrat, arial;
+    margin: 50px;
+    padding: 10px;
+    background-color: hsl(25, 68%, 33%);
+    border: 1px solid #f5efef;
+    box-sizing: border-box;
+    color: #202020; 
+}
+a{
+    color: #0b257a;
+    text-decoration: underline;
+    margin: 50px;
+    font-size: 17px;
+}
+
+nav {
+text-align: center;
+border-bottom: 2px solid rgb(255, 255, 255);
+padding: 2px;
+}
+
+#Signature {
+    font-weight: bold;
+    text-align: center;
+    color: rgb(119, 7, 7);
+    font-size: 12px;
+}
+
+#Table_title {
+    font-weight: bold;
+    text-align: center;
+    color: rgb(248, 246, 246);
+    font-size: 18px;
+    padding: 3px;
+}
+
+td {
+    text-align: center;
+    font-size: 17px;
+}
+
+table {
+    border: 1px solid #202020;
+    border-width: 2px;
+}
+    
+
+td img {
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    width: 100px;
+    height: auto;
+}
+    
